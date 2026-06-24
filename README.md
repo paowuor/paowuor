@@ -1,6 +1,7 @@
+<div align="center">
+  
 # 💫 About Me:
-Hey ! I'm Paul<br>I'm a software apprentice at Zone01 specializing in full stack
-
+<img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=28&duration=3000&pause=500&color=00FF7F&center=true&vCenter=true&width=500&lines=Hey+%F0%9F%91%8B+I'm+Paul;Software+Apprentice+%F0%9F%92%BB;Full+Stack+Developer;Blockchain+Enthusiast;Problem+Solver+%F0%9F%A7%A9" alt="Typing Animation" />
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/linkedin.com/in/paul-owuor-66a821397) [![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@Paul Owuor) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:owuorpaul500@gmail.com) 
