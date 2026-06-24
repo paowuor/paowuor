@@ -19,12 +19,16 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Uses the stable GitHub Metrics engine specifically configured for isometric/arcade grids
-      - name: Generate Arcade Grids
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          filename: github-metrics.svg
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+      - name: Build 3D Arcade Blocks
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit and Push Game Grid
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "Update dynamic arcade map assets"
+          git push
