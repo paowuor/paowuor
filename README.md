@@ -6,7 +6,7 @@
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/linkedin.com/in/paul-owuor-66a821397) [![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@Paul Owuor) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:owuorpaul500@gmail.com) 
 
-<img width="4096" height="3080" alt="gabriele-malaspina-CjWsslYVnPI-unsplash" src="https://github.com/user-attachments/assets/0729733f-801f-43e9-bce6-c97481d1f8e9" />
+<img width="3096" height="2080" alt="gabriele-malaspina-CjWsslYVnPI-unsplash" src="https://github.com/user-attachments/assets/0729733f-801f-43e9-bce6-c97481d1f8e9" />
 
 
 # 💻 Tech Stack:
