@@ -1,0 +1,41 @@
+name: Generate Arcade Contribution Graphs
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs automatically every 24 hours
+  workflow_dispatch: # Allows you to run it manually
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Generate Games
+        uses: lowlighter/metrics@master # Backed by the arcade generation framework
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          
+      # This specific step pulls your graph data and hooks it into the games
+      - name: Generate Arcade Grid
+        uses: k-maru/generate-pacman-game-from-github-contribution-grid@v1.0.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # YOU CAN CHOOSE YOUR GAMES HERE:
+          # Options: 'breakout', 'minesweeper', 'galaga', 'bomberman'
+          games: 'breakout,minesweeper' 
+
+      - name: Push SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
