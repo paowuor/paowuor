@@ -25,7 +25,7 @@
 ### 💣 Commit Sweeper (Minesweeper)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/minesweeper-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/minesweeper.svg">
-  <img alt="GitHub Minesweeper Grid" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/minesweeper.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paowuor/paowuor/output/minesweeper-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/paowuor/paowuor/output/minesweeper.svg">
+  <img alt="GitHub Minesweeper Grid" src="https://raw.githubusercontent.com/paowuor/paowuor/output/minesweeper.svg">
 </picture>
